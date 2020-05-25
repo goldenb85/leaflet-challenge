@@ -19,3 +19,14 @@ var graymap = L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?
     id: "mapbox.outdoors",
     accessToken: apiKey
   });
+
+
+// created an array of layers.
+var map = L.map("mapid", {
+    center: [
+      40.7, -94.5
+    ],
+    zoom: 3,
+    layers: [graymap, satellitemap, outdoors]
+  });
+  
