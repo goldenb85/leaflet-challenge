@@ -3,11 +3,11 @@
 ## Data Source ##
 
    USGS: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
-------------------------------------------------------------------------
+
 **Tool**
 
    JavaScript, HTML, CSS
-------------------------------------------------------------------------
+
 **Visualize the Data**
 
 **1. Satellite**
