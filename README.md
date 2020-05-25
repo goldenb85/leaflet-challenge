@@ -1,5 +1,6 @@
 # Leaflet - Challenge
-
+## Summary ##
+This project is to grab earthquake data from USGS.
 ## Data Source ##
 
    USGS: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
