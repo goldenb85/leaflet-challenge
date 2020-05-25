@@ -16,3 +16,5 @@
 **2. GrayScale**
    <img src="Leaflet-Step-1/Images/Earthquake grayscale geomap.PNG">
 
+**3. Outdoor**
+   <img src="Leaflet-Step-1/Images/Earthquake outdoor geomap.PNG">
