@@ -13,3 +13,6 @@
 **1. Satellite**
    <img src="Leaflet-Step-1/Images/Earthquake Satellite geomap.PNG">
 
+**2. GrayScale**
+   <img src="Leaflet-Step-1/Images/Earthquake grayscale geomap.PNG">
+
