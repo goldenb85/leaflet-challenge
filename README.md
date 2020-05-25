@@ -8,6 +8,7 @@
 
    JavaScript, HTML, CSS
 
+## Map ##
 **Visualize the Data**
 
 **1. Satellite**
