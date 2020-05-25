@@ -30,3 +30,23 @@ var map = L.map("mapid", {
     layers: [graymap, satellitemap, outdoors]
   });
   
+  // retrieve earthquake geoJSON data from usgs
+d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson", function(data) {
+
+    // This function returns the style data for each of the earthquakes we plot on
+    // the map. We pass the magnitude of the earthquake into two separate functions
+    // to calculate the color and radius.
+    function styleInfo(feature) {
+      return {
+        opacity: 1,
+        fillOpacity: 1,
+        fillColor: getColor(feature.properties.mag),
+        color: "#000000",
+        radius: getRadius(feature.properties.mag),
+        stroke: true,
+        weight: 0.5
+      };
+    }
+}
+
+)
